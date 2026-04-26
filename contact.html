@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | LMD MOTORS</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #270a0a;
+      color: #fff;
+    }
+
+    /* NAVBAR */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #000;
+    }
+
+    header h1 {
+      color: #d4af37;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ccc;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    /* HERO */
+    .contact-hero {
+      height: 50vh;
+      background: url('images/contact.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .contact-hero h2 {
+      font-size: 40px;
+    }
+
+    /* MAIN */
+    .contact-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* INFO */
+    .contact-info h3 {
+      color: #d4af37;
+    }
+
+    .contact-info p {
+      color: #ccc;
+      margin: 10px 0;
+    }
+
+    .socials a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #d4af37;
+    }
+
+    /* FORM */
+    .contact-form h3 {
+      color: #d4af37;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 12px;
+      width: 100%;
+      background: #d4af37;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .contact-form button:hover {
+      background: #b8962f;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      padding: 50px;
+      background: #000;
+    }
+
+    .cta button {
+      padding: 15px 30px;
+      background: #d4af37;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* FOOTER */
+    .footer {
+      background: #0b0b0b;
+      padding: 30px;
+      text-align: center;
+      color: #888;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  
+  <header>
+    <h1>LMD MOTORS</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section class="contact-hero">
+    <h2>Contact Us</h2>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-container">
+
+    <!-- INFO -->
+    <div class="contact-info">
+      <h3>Get In Touch</h3>
+      <p>📍 Gaborone, Botswana</p>
+      <p>📞 +267 77328582</p>
+      <p>📧 support@lmdmotors.com</p>
+
+      <h3>Follow Us</h3>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">X</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Need Assistance?</h2>
+    <p>Visit our Help Center or speak to our team.</p>
+    <button>Help Center</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 LMD MOTORS. All rights reserved.</p>
+    <p>Luxury. Innovation. Performance.</p>
+  </footer>
+
+</body>
+</html>
